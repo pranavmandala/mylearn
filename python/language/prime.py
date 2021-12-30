@@ -14,7 +14,6 @@ def isPrime(x):
         print(str(x) + " is not a prime number")
         return False 
 
-
-
+isPrime(int(x))
 
 
