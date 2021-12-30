@@ -33,5 +33,3 @@ printtype(y)
 printtype(z)
 printtype(b)
 printtype(c)
-
-print(printtype(c))
