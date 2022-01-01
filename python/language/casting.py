@@ -10,7 +10,7 @@ def checkif(val):
         print("if {} is False when {} type is {}".format(val, val, type(val)))
 
 # Boolean to String
-print("Boolean to String")
+heading("Boolean to String")
 x = True
 y = False
 z = str(x)
@@ -22,8 +22,7 @@ print("{} == \"{}\" (String) is {}".format(z, "True", "True" == z))
 
 
 # Boolean to Number
-print("\n")
-print("Boolean to Number")
+heading("Boolean to Number")
 z = int(x)
 print("Intial Value {} -> Type {}".format(x, type(x)))
 print("Converted Value {} -> Type {}".format(z, type(z)))
@@ -32,8 +31,7 @@ print("Intial Value {} -> Type {}".format(y, type(y)))
 print("Converted Value {} -> Type {}".format(z, type(z)))
 
 # Boolean to Float
-print("\n")
-print("Boolean to Float")
+heading("Boolean to Float")
 z = float(x)
 print("Intial Value {} -> Type {}".format(x, type(x)))
 print("Converted Value {} -> Type {}".format(z, type(z)))
@@ -42,17 +40,15 @@ print("Intial Value {} -> Type {}".format(y, type(y)))
 print("Converted Value {} -> Type {}".format(z, type(z)))
 
 # String to Number
+heading("String to Number")
 string = ("1")
-print("\n")
-print("String to Number")
 # we cannot change because the string value to a number if it is a word
 newstring = int(string)
 print("Intial Value {} -> Type {}".format(string, type(string)))
 print("Converted Value {} -> Type {}".format(newstring, type(newstring)))
 
 # String to Float
-print("\n")
-print("Stringn to Float")
+heading("Stringn to Float")
 newstring = float(string)
 print("Intial Value {} -> Type {}".format(string, type(string)))
 print("Converted Value {} -> Type {}".format(newstring, type(newstring)))
@@ -61,8 +57,7 @@ print("Converted Value {} -> Type {}".format(newstring, type(newstring)))
 s1 = "abc"
 s2 = ""
 s3 = " "
-print("\n")
-print("String to Boolean")
+heading("String to Boolean")
 newstring = bool(s1)
 print("Intial Value {} -> Type {}".format(s1, type(s1)))
 print("Converted Value {} -> Type {}".format(newstring, type(newstring)))
